@@ -29,5 +29,5 @@ The WaveUNet consists of three main components:
 
 ```bash
 Python >= 3.8
-PyTorch >= 1.9.0
+PyTorch >= 1.11.0
 CUDA >= 11.0 (optional, for GPU acceleration)
