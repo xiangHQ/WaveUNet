@@ -1,3 +1,3 @@
 WaveUNet: An Efficient Deep Network Based on Discrete Wavelet Transform and Attention Mechanism for InSAR Phase Unwrapping
 
-![Flowchart of this stud](image/image1.jpg)
+<img src="image/image1.jpg" width="600" alt="Flowchart of this stud">
