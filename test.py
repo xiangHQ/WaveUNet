@@ -101,13 +101,13 @@ if __name__ == '__main__':
 
     parser.add_argument('--model', type=str, default="WaveUNet", help="model name")
     parser.add_argument('--dataset', type=str, default="InSAR-DLPU", help="dataset")
-    parser.add_argument('--dataRootDir', type=str, default=r"F:\WaveUNet_data\Wave_all_data\train\data\InSAR_Topography\interferogram", help="dataset dir")
+    parser.add_argument('--dataRootDir', type=str, default=r"./data/InSAR_Funnel_Deformation/interferogram", help="dataset dir")
     parser.add_argument('--input_size', type=str, default="256,256", help="input size")
     parser.add_argument('--num_workers', type=int, default=1, help="the number of parallel threads")
     parser.add_argument('--num_channels', type=int, default=1, help="the number of input channels")
 
-    parser.add_argument('--checkpoint', type=str, default=r"F:\WaveUNet_data\Wave_all_data\checkpoint\InSAR_Topography.pth", help="checkpoint")
-    parser.add_argument('--output_dir', type=str, default=r"F:\WaveUNet_data\Wave_all_data\train\data\InSAR_Topography\interferogram\wa228", help="output dir")
+    parser.add_argument('--checkpoint', type=str, default=r"./checkpoint/InSAR_Funnel_Deformation.pth", help="checkpoint")
+    parser.add_argument('--output_dir', type=str, default=r"./data/InSAR_Funnel_Deformation/interferogram_WaveUNet", help="output dir")
     parser.add_argument('--output_format', type=str, default='mat', choices=['npy', 'mat', 'png'],
                        help="Output file format")
     parser.add_argument('--cuda', type=bool, default=True, help="run on CPU or GPU")
