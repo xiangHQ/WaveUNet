@@ -283,9 +283,9 @@ if __name__ == '__main__':
     parser.add_argument('--gpus', type=str, default="0", help="default GPU devices (0,1)")
     # checkpoint and log
     parser.add_argument('--resume', type=str,
-                        default=r"/root/autodl-tmp/checkpoint/phaseUnwrapping/phaseUnwrapping/WaveUNet/latest_checkpoint.pth",
+                        default=r"",
                         help="use this file to load last checkpoint for continuing training")
-    parser.add_argument('--savedir', default=r"/root/autodl-tmp/checkpoint/phaseUnwrapping",
+    parser.add_argument('--savedir', default=r"./checkpoint/phaseUnwrapping",
                         help="directory to save the model snapshot")
     parser.add_argument('--logFile', default="log.txt", help="storing the training and validation logs")
     args = parser.parse_args()
