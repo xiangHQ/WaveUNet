@@ -274,8 +274,8 @@ def process_mat_files_in_folder(folder_path, real_data_folder, coherence_folder=
 
 
 if __name__ == '__main__':
-    folder_path = r"F:\WaveUNet_data\Wave_all_data\train\data\InSAR_Topography\interferogram\wa228"
-    real_path = r"F:\WaveUNet_data\Wave_all_data\train\data\InSAR_Topography\true_phase"
-    coherence_path = r"F:\WaveUNet_data\Wave_all_data\train\data\InSAR_Topography\coherence"
+    folder_path = r""
+    real_path = r""
+    coherence_path = r""
     process_mat_files_in_folder(folder_path, real_path, coherence_folder=coherence_path)
 
