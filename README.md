@@ -8,6 +8,9 @@
 
 WaveUNet is a novel deep learning framework for InSAR phase unwrapping, combining **Discrete Wavelet Transform (DWT)** with **Attention Mechanisms** to achieve state-of-the-art performance. This repository contains the official implementation of our paper.
 
+For local mining-area funnel phase unwrapping using WaveUNet, please use the following repository:
+https://github.com/xiangHQ/WaveUNet-for-local-mining-area-funnel-phase-unwrapping.git
+
 <img src="image/image2.png" width="800" alt="Flowchart of this study">
 *Figure 1: Overall architecture of the proposed WaveUNet framework*
 
