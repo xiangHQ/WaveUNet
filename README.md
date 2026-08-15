@@ -28,6 +28,23 @@ The WaveUNet consists of three main components:
 2. **Bottleneck**: Attention-augmented feature transformation
 3. **Decoder**: Progressive upsampling with skip connections
 
+### 📝 Correction to Eq. (3)
+
+Please note that Eq. (3) in the published paper contains a typographical error in the spatial attention formulation.
+
+The equation
+
+[
+A=\mathrm{Softmax}(Q^{T}K)
+]
+
+should be corrected to
+
+[
+A=\mathrm{Softmax}(QK^{T}).
+]
+
+
 ## 📊 Dataset
 
 **InSAR-DLPU dataset**: [https://github.com/zhoulifan/InSAR-DLPU.git](https://github.com/zhoulifan/InSAR-DLPU.git)
