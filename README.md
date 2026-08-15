@@ -31,18 +31,17 @@ The WaveUNet consists of three main components:
 ### 📝 Correction to Eq. (3)
 
 Please note that Eq. (3) in the published paper contains a typographical error in the spatial attention formulation.
-
 The equation
 
-[
+$$
 A=\mathrm{Softmax}(Q^{T}K)
-]
+$$
 
 should be corrected to
 
-[
+$$
 A=\mathrm{Softmax}(QK^{T}).
-]
+$$
 
 
 ## 📊 Dataset
